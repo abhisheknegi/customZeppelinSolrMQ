@@ -27,3 +27,7 @@ Please go to [install](http://zeppelin.apache.org/docs/snapshot/install/install.
 Please check [Build from source](http://zeppelin.apache.org/docs/snapshot/install/build.html) to build Zeppelin from source.
 
 
+### Customizations
+1. Enhancement of Cassandra interpreter to call SOLR api if appropriate input is provided.
+2. Ability to to faceted search with doc.date "range" functions and tabular formatting for compatible display.
+3. Enhancement of Shell interpreter to integrate with ActiveMQ for specific 'hardcoded' queue reading. This feature is used to pull data every 1 second through a rest api trigger for zeppelin notebooks.
